@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Prueba usuario correcto y sin contraseña.</description>
+   <name>Test3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ce8c9de-cca4-4017-829b-6fc0bc3cecc6</testCaseGuid>
+</TestCaseEntity>
