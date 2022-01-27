@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 
+    'adonis_elflaco04@hotmail.com')
+
+WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'), 
+    'wxWC2HrDP9ZUMxi03bLJeg==')
+
+WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+
