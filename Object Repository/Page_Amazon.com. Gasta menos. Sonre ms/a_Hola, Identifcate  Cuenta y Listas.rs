@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-a nav-a-2   nav-progressive-attribute</value>
+      <value>nav-a nav-a-2   nav-progressive-attribute nav-active</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-id</name>
       <type>Main</type>
-      <value>w18aok-4naqya-mrogv9-o0nndz</value>
+      <value>j07ip3-kazcfl-c0ojt7-vnws9u</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
