@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Probando usuario y contraseña correctos.</description>
    <name>Test5</name>
-   <tag></tag>
+   <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>93d5a716-ac77-41e5-91c1-830d8383760c</testCaseGuid>
 </TestCaseEntity>

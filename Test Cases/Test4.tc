@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Proabando sin usuario y con contraseña correcto.</description>
    <name>Test4</name>
-   <tag></tag>
+   <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>31a75a3b-b479-4d88-b7e4-7652aefc6796</testCaseGuid>
 </TestCaseEntity>
