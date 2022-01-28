@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
 

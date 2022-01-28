@@ -5,4 +5,18 @@
    <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>9ce8c9de-cca4-4017-829b-6fc0bc3cecc6</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.amazon.com/'</defaultValue>
+      <description></description>
+      <id>fa1d86ff-d0c0-4d58-bfe7-abd8d63bfc06</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'adonis_elflaco04@hotamil.com'</defaultValue>
+      <description></description>
+      <id>73f37416-11b2-4ad2-9926-47f4d0f2fb75</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
 </TestCaseEntity>

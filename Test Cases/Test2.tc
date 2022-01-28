@@ -5,4 +5,25 @@
    <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>a64a4cc8-e08f-415a-8afd-e4b58081e98c</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.amazon.com/'</defaultValue>
+      <description></description>
+      <id>dcd2d44b-107e-4714-a921-79f6c9365cad</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'adonis_elflaco04@hotmail.com'</defaultValue>
+      <description></description>
+      <id>7ebe28ca-f5a5-4046-b360-cf623748712e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'wxWC2HrDP9ZUMxi03bLJeg=='</defaultValue>
+      <description></description>
+      <id>ecc1c01c-5717-4eb4-ad44-5be1d99e788d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

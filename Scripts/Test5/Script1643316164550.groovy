@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 
-    'adonis_elflaco04@hotmail.com')
+    username)
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'), 
-    'P3O4dNYapX+c1mhxBhAq8w==')
+    password)
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'))
 
