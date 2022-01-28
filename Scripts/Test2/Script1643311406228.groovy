@@ -21,17 +21,42 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
+//Validando elemento clickable
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'), 0)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
+
 WebUI.click(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
+
+//Validando input username
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Direccin de correo electrnico o nmero_cfb2c0'), 
     username)
 
+//Validando boton username
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'), 0)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+
 WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+
+//Validando input password
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'), 0)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password'), 
     password)
 
+//Validando boton password
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'), 0)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'))
+
 WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'))
+
+//Validando elemento
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/div_Se produjo un problema                 _c3c363'), 
+    0)
 
 WebUI.delay(5)
 
