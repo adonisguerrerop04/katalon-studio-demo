@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit",
+      "brokenLocator": "//input[@id\u003d\u0027signInSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit_position.png"
+    }
+  ]
 }
