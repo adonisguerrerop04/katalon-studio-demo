@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.amazon.com/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LoginData').getValue(1, 1)</initValue>
+      <name>wrongUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LoginData').getValue(2, 1)</initValue>
+      <name>wrongPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
