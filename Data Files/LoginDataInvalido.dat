@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description></description>
-   <name>LoginData2</name>
+   <description>Archivo de excel con los usuarios y contraseñas.</description>
+   <name>LoginDataInvalido</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>55815731-f1a7-4a5e-9605-7b6dae74e84f</dataFileGUID>
+   <dataFileGUID>310feae3-832e-4331-9c0f-073463ac9304</dataFileGUID>
    <dataSourceUrl>C:\Users\adoni\Documents\katalon studio demo.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Hoja2</sheetName>
+   <sheetName>Hoja1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

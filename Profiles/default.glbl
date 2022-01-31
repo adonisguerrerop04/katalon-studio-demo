@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('LoginData').getValue(1, 2)</initValue>
+      <initValue>findTestData('LoginData2').getValue(1, 1)</initValue>
       <name>validUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('LoginData').getValue(2, 2)</initValue>
+      <initValue>findTestData('LoginData2').getValue(2, 1)</initValue>
       <name>validPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
