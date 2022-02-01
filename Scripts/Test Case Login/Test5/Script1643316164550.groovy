@@ -59,7 +59,5 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon Inici
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit'))
 
-WebUI.delay(5)
-
-WebUI.closeBrowser()
+WebUI.delay(30)
 
