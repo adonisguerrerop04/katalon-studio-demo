@@ -36,10 +36,10 @@ for (int i = 1; i <= findTestData("Data Files/DataBusquedaAmazon").rowNumbers; i
 	
 	WebUI.delay(7)
 	
+	//Refrescando la página
+	WebUI.refresh()
+	
 }
-
-//Refrescando la página
-WebUI.refresh()
 
 //Validando elemento
 WebUI.verifyElementPresent(findTestObject('Object Repository/Amazon Logout/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola Adonis  Cuenta y Listas'), 0)
