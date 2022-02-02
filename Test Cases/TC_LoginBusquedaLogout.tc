@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Se hace login, se hace una busqueda y luego un logout</description>
+   <name>TC_LoginBusquedaLogout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>958838fe-07c7-413d-8c89-00af87ecd882</testCaseGuid>
+</TestCaseEntity>
