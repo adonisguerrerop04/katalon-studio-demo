@@ -32,6 +32,6 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Amazon Logout/Pag
 
 WebUI.click(findTestObject('Object Repository/Amazon Logout/Page_Amazon.com. Gasta menos. Sonre ms/span_Cerrar Sesin'))
 
-WebUI.delay(30)
+WebUI.delay(7)
 
 WebUI.closeBrowser()
