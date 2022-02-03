@@ -9,6 +9,206 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Amazon Iniciar sesin/input_Introduce tu contrasea_signInSubmit_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Amazon Iniciar sesin/input_Olvidaste tu contrasea_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Carrito de compras de amazon.com/input_US12.98_proceedToRetailCheckout",
+      "brokenLocator": "//input[@name\u003d\u0027proceedToRetailCheckout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Compra/Page_Carrito de compras de amazon.com/input_US12.98_proceedToRetailCheckout_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_555e69",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-lt07no-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_555e69_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber",
+      "brokenLocator": "//input[@id\u003d\u0027pp-FSFq90-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName",
+      "brokenLocator": "//input[@id\u003d\u0027pp-FSFq90-17\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01",
+      "brokenLocator": "//span[@id\u003d\u0027pp-FSFq90-21\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_12",
+      "brokenLocator": "//a[@id\u003d\u0027pp-FSFq90-18_11\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div/div/ul/li[12]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_12_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_817415",
+      "brokenLocator": "//div[@id\u003d\u0027pp-FSFq90-14\u0027]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Agregar una tarjeta de crédito o débito\u0027])[1]/following::div[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Compra/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_817415_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_796dea",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-10bqom-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_796dea_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber",
+      "brokenLocator": "//input[@id\u003d\u0027pp-aZjcgU-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName",
+      "brokenLocator": "//input[@id\u003d\u0027pp-aZjcgU-17\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01",
+      "brokenLocator": "//span[@id\u003d\u0027pp-aZjcgU-21\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_12",
+      "brokenLocator": "//a[@id\u003d\u0027pp-aZjcgU-18_11\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div/div/ul/li[12]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_12_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_817415",
+      "brokenLocator": "//div[@id\u003d\u0027pp-aZjcgU-14\u0027]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Agregar una tarjeta de crédito o débito\u0027])[1]/following::div[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Tarjeta Amazon/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_817415_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_c515a0",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-Ri5GIX-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_c515a0_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber",
+      "brokenLocator": "//input[@id\u003d\u0027pp-zXJCoI-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName",
+      "brokenLocator": "//input[@id\u003d\u0027pp-zXJCoI-17\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01",
+      "brokenLocator": "//span[@id\u003d\u0027pp-zXJCoI-21\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_04",
+      "brokenLocator": "//a[@id\u003d\u0027pp-zXJCoI-18_3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div/div/ul/li[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_04_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_817415",
+      "brokenLocator": "//div[@id\u003d\u0027pp-zXJCoI-14\u0027]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Agregar una tarjeta de crédito o débito\u0027])[1]/following::div[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_817415_neighbor.png"
     }
   ]
 }
