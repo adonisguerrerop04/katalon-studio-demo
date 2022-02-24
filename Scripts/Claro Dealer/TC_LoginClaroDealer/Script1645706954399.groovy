@@ -21,27 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.urlClaroDealer)
 
-//Validando elemento clickable
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'), 
-    0)
+//Validando el input del correo
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
+WebUI.verifyElementPresent(findTestObject('Claro Login/Page_Tienda DAC/input_Correo_input'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
+WebUI.setText(findTestObject('Object Repository/Claro Login/Page_Tienda DAC/input_Correo_input'), GlobalVariable.emailClaroDealer)
 
-//Validando boton username
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'), 
-    0)
+//Validando el input de contraseña
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+WebUI.verifyElementPresent(findTestObject('Claro Login/Page_Tienda DAC/input_Contrasea_input'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Claro Login/Page_Tienda DAC/input_Contrasea_input'), GlobalVariable.passwordClaroDealer)
 
-//Validando elemento
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/div_Escriba su correo electrnico o su nmero_20b649'), 
-    0)
+//Validando el boton de iniciar sesión
+
+WebUI.verifyElementPresent(findTestObject('Claro Login/Page_Tienda DAC/button_Iniciar'), 0)
+
+WebUI.verifyElementClickable(findTestObject('Claro Login/Page_Tienda DAC/button_Iniciar'))
+
+WebUI.click(findTestObject('Object Repository/Claro Login/Page_Tienda DAC/button_Iniciar'))
 
 WebUI.delay(5)
-
-WebUI.closeBrowser()
 

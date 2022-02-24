@@ -17,31 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Claro Dealer/TC_LoginClaroDealer'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.urlClaroDealer)
+WebUI.maximizeWindow()
 
-//Validando elemento clickable
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'), 
-    0)
+//Validando input buscador
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
+WebUI.verifyElementPresent(findTestObject('Claro Busqueda/Page_Tienda DAC/input_Gift Cards_input'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com. Gasta menos. Sonre ms/a_Hola, Identifcate  Cuenta y Listas'))
+WebUI.setText(findTestObject('Claro Busqueda/Page_Tienda DAC/input_Gift Cards_input'), 'apple')
 
-//Validando boton username
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'), 
-    0)
+//Validando boton buscador
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+WebUI.verifyElementPresent(findTestObject('Claro Busqueda/Page_Tienda DAC/button_Gift Cards_button search-button'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Iniciar sesin/input_Escriba su correo electrnico o su nme_4466f0'))
+WebUI.verifyElementClickable(findTestObject('Claro Busqueda/Page_Tienda DAC/button_Gift Cards_button search-button'))
 
-//Validando elemento
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Amazon Iniciar sesin/div_Escriba su correo electrnico o su nmero_20b649'), 
-    0)
-
-WebUI.delay(5)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Claro Busqueda/Page_Tienda DAC/button_Gift Cards_button search-button'))
 

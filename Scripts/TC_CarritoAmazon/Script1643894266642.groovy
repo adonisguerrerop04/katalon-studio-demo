@@ -72,6 +72,9 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Amazon Carrito/Pa
 
 WebUI.click(findTestObject('Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Amazon acepta las principales tarjeta_387d7f'))
 
+not_run: WebUI.switchToFrame(findTestObject('Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_c515a0'), 
+    0)
+
 WebUI.setText(findTestObject('Object Repository/Amazon Carrito/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber'), 
     GlobalVariable.numeroTarjetaInv)
 

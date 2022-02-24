@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Prueba de login Claro Dealer</description>
+   <name>TC_LoginClaroDealer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e0b24dc-5d09-4c95-a1a7-1c7570c47424</testCaseGuid>
+</TestCaseEntity>

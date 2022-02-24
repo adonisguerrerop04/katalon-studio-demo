@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Claro Dealer</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://clarodealerfeqa.azurewebsites.net/login'</initValue>
+      <name>urlClaroDealer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gerrmosen@gmail.com'</initValue>
+      <name>emailClaroDealer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kK75q/6YB+3Mb6NJuESMrg=='</initValue>
+      <name>passwordClaroDealer</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

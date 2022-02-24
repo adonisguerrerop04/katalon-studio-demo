@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.urlClaroDealer)
 
 for (int i = 1; i <= findTestData("Data Files/DataBusquedaAmazon").rowNumbers; i++) {
 	
